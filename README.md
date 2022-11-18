@@ -1,5 +1,10 @@
 # TelephoneDirectory
-With this application, you can save and call contacts on your phone. In practice, the registration to the local database was made with the room library; insert, read, update, delete. In practice, corotines are used, to ensure asynchronous operation.
+With this application, you can save and call contacts on your phone. In practice, the registration to the local database was made with the room library; insert, read, update, delete. In practice, corotines are used, to ensure asynchronous operation.<br>
+Used technologies:<br>
+-Room<br>
+-Kotlin Corotines<br>
+-Fragment<br>
+-Navigation<br><br>
 <br><br>
 App main page<br>
 ![Screenshot_20221118-161001_TelephoneDirectory](https://user-images.githubusercontent.com/67163842/202716007-958e6afe-d0a3-40f1-9a34-4118099af41a.jpg)
