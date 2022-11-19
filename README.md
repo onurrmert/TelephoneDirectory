@@ -4,6 +4,8 @@ Used technologies:<br>
 -Room<br>
 -Kotlin Corotines<br>
 -Fragment<br>
+-viewBinding<br>
+-MVVM Desing Pattern<br>
 -Navigation<br><br>
 <br><br>
 App main page<br>
