@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    tools:context=".View.AddPhoneNumberFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#32B4F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/toolText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_bacground"
+        android:paddingTop="100dp"
+        android:paddingBottom="60dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/nameEdit"
+            style="@style/editTextStyle"
+            android:background="@drawable/my_bacground"
+            android:ems="10"
+            android:hint="User Name"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/numberEdit"
+            style="@style/editTextStyle"
+            android:background="@drawable/my_bacground"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="5dp" />
+
+        <EditText
+            android:id="@+id/emailEdit"
+            style="@style/editTextStyle"
+            android:background="@drawable/my_bacground"
+            android:ems="10"
+            android:hint="User E-mail"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="5dp" />
+
+        <Button
+            android:id="@+id/insertButton"
+            style="@style/buttonStyle"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue1"
+            android:text="Save" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
